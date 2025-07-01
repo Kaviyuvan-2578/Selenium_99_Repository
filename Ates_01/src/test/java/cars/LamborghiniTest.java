@@ -14,4 +14,5 @@ public class LamborghiniTest {
 		driver.get("https://www.lamborghini.com/en-en#val-ht");
 		Reporter.log("Lamborghini Launched",true);
 }
+	driver.close();
 }
