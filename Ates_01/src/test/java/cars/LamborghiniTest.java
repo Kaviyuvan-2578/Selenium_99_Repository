@@ -10,6 +10,7 @@ public class LamborghiniTest {
 	@Test
 	public void lamborghinilaunch() {
 		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.lamborghini.com/en-en#val-ht");
 		Reporter.log("Lamborghini Launched",true);
 }
