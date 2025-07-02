@@ -16,7 +16,7 @@ public class Launch01 {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		
 		driver.get("https://www.qatarairways.com/");
-		
+		String title=driver.getTitle();
 		driver.close();
 	}
 
