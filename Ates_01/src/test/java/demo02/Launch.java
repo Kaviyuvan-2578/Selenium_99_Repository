@@ -8,6 +8,7 @@ public class Launch {
 	@Test
 	public void launch() {
 		WebDriver driver= new ChromeDriver();
+		driver.close();
 		
 		
 	}
